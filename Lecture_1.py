@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[130]:
-
-
 # CMIT 2025 Python Lecture 1 == CMIT_P1.ipynb  [jupyter nbconvert --to python notebook.ipynb]
 # 13 June 2025 9am      (If for PY, jupyter nbconvert --to script Lecture_1.ipynb)
 ''' Content in L1      [To launch juypter, type "python -m jupyter notebook"]
@@ -193,7 +187,7 @@ print('\t time =', time0)
 
 
 s=r'\nTASK:  If not sure about the maths concepts, check wiki or other sources.\n\
-   Write a code to generate the Hilbert matrix $H$ with $H_{ij}=1/(ij-1)$ for $i,j=1,...,n$.\n\
+   Write a code to generate the Hilbert matrix $H$ with $H_{ij}=1/(i+j-1)$ for $i,j=1,...,n$.\n\
    Then compute its condition number $cond(H)$ for $n=4, 8$ by numpy.linalg.cond\n\
    If your code runs okay,  just show your answers on screen in the next lecture'
 print('HW 1 - CMIT 2025\n',s) # if run in py
@@ -203,7 +197,7 @@ print('HW 1 - CMIT 2025\n',s) # if run in py
 
 # 
 # TASK:  If not sure about the maths concepts, check wiki or other sources.\n\
-#    Write a code to generate the Hilbert matrix $H$ with $H_{ij}=1/(ij-1)$ for $i,j=1,...,n$.
+#    Write a code to generate the Hilbert matrix $H$ with $H_{ij}=1/(i+j-1)$ for $i,j=1,...,n$.
 # 
 #    Then compute its condition number $cond(H)$ for $n=4, 8$ by numpy.linalg.cond
 #    If your code runs okay,  just show your answers on screen in the next lecture

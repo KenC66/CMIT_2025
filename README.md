@@ -1,2 +1,6 @@
 # CMIT_2025
 CMIT Ken's Python lectures
+
+Lecture_1.ipynb --- Main code examples
+Lecture_!,py ------ Plain py converted from ipynb
+Liver.jpg --------- used by both Lecture_1 filesto demo images

@@ -140,3 +140,21 @@ for i in range(0,Count,7):
     plt.subplot(1,2,1);  plt.imshow( imgs );  plt.title('Image %d' % i)
     plt.subplot(1,2,2);  plt.imshow( labs );  plt.title('Label %d' % i)
 plt.show()
+
+######## 
+# %%
+print('\nHome work 2 --- Generate a matrix and compute its condition number\n')
+
+s='TASK:  Use the same Hilbert matrix as Home work 1.\n\
+   Write a code using "class" to generate a matrix $A = H + sigma*I$ \n\
+   where\n\
+   $H_{ij}=1/(i+j-1)$ for $i,j=1,...,n$,  \n\
+   sigama is a scalar and I=identity matrix.\n\
+   Then compute its condition number $cond(A)$ for the cases of \n\
+    (i) sigma=0.5 and n=4\n\
+   (ii) sigma=0.5 and n=8\n\
+   If your code runs okay,  just show it quickly and your answers on screen in the next lecture\n'
+print(s)
+
+import datetime
+time0 = datetime.datetime.now().strftime("%Y %m %d @ %H:%M:%S"); print('\t time =', time0)
